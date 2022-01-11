@@ -33,7 +33,7 @@ INSERT INTO public.ss_usuarios(
 	 codigo_usuario, nombre_usuario, telefono, email, bloqueado, 
 	clave, usuario_registro, fecha_registro, 
 	fecha_inicial_vigencia)
-	VALUES ('admin2','Hilson Carballo','72013837','hilsoncarballo@gmail.com',false,'$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.','admin',current_date,current_date);
+	VALUES ('admin2','Hilson','7201XXXX','hilsoncarballo@x',false,'$2a$10$XURPShQNCsLjp1ESc2laoObo9QZDhxz73hJPaEv7/cBha4pk0AgP.','admin',current_date,current_date);
 
 ## Insertar registro
 
@@ -45,6 +45,20 @@ http://localhost:8095/login
 
 ### Documentacion Servicios
 http://localhost:8095/v2/api-docs
+
+##Servicios
+* http://localhost:8095/login
+* http://localhost:8095/api/usuarios/listar
+* http://localhost:8095/api/characters
+* 1http://localhost:8095/api/characters/Spider-dok/w/w
+* 2 http://localhost:8095/api/characters/Spider-dok
+* 3 .http://localhost:8095/api/charactersimage/3-D Man
+* 4. http://localhost:8095/api/comics
+* 5 http://localhost:8095/api/comics/331
+*6. 
+*7. http://localhost:8095/api/stories
+ http://localhost:8095/api/stories/nombre_stories
+ 
 #### Tecnologia
 
 Open your browser in http://localhost:8095/login
